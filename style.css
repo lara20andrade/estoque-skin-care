@@ -1,0 +1,101 @@
+style.css
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+
+.navbar {
+    background-color: #3a3a3a;
+}
+
+
+.navbar a {
+    color: white !important;
+    font-weight: bold;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn-primary {
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+
+.btn-primary:hover {
+    background-color: #c2185b;
+    border-color: #c2185b;
+}
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f1f1f1;
+}
+
+
+.form-control {
+    border-radius: 20px;
+}
+
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #e91e63;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+footer a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.card-body {
+    padding: 2rem;
+}
+
+
+.card-title {
+    color: #e91e63;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+
+    .card {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
